@@ -1,0 +1,25 @@
+table, td, th {
+    border:1px, solid gray; /*border(keret)*/
+    border-collapse: collapse; /*cellák közti rések eltűntetése*/
+}
+table{
+    width:80%; /*Szélessége (táblázat)*/
+    margin: auto; /*Középre igazítás*/
+}
+table>thead>tr{
+    border:3px, solid darkorange;
+}
+th{ /*fejléc formázása (táblázat)*/
+    background-color: brown;
+    color: beige; 
+}
+tr:nth-child(odd)/*minden páratlan sor színezése*/{
+    color:red
+}
+.osszevont{
+    background-color: greenyellow; /*összevont cella*/
+}
+.reszponzivtablazat/*scrollozható táblázat*/{
+    width: 100%;
+    overflow-x: scroll;
+}

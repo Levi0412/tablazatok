@@ -1,0 +1,15 @@
+table, td, th {
+    border:1px, solid gray; /*border(keret)*/
+    border-collapse: collapse; /*cellák közti rések eltűntetése*/
+}
+table{
+    width:600px;
+    height: 600px;
+    
+}
+th{
+    background-color: grey;
+}
+tr:nth-child(odd)td:nth-child(even){
+    color:red
+}

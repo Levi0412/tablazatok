@@ -1,0 +1,13 @@
+table, td, th {
+    border:1px, solid gray; 
+    border-collapse: collapse; 
+}
+table{
+    width:80%;
+    margin:auto;
+    color:rgb(73, 62, 48)
+}
+
+tr:nth-child(odd){
+    background-color: rgba(153, 113, 113, 0.541);
+}
